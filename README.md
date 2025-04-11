@@ -54,37 +54,40 @@ To develop a simple and efficient system that can:
 
 ### 🛠️ Installation Steps
 
-1. **Clone the Repository**
-```bash
-git clone https://github.com/apurwaanandd/Captcha-Recognition-system.git
-cd Captcha-Recognition-system
-
-Install Dependencies
+1. Clone the github repository
+  
+3. Install Dependencies
 pip install -r requirements.txt
 (If requirements.txt is missing, install manually: Flask, tensorflow, keras, opencv-python)
 
-Run the Flask App
+4. Run the Flask App
 python app.py
 Open the Web App Visit http://127.0.0.1:5000 in your browser.
 📸 Sample Output
 
-Upload a CAPTCHA image → Get the predicted text instantly
+5. Upload a CAPTCHA image → Get the predicted text instantly
 Works with alphanumeric characters
 📥 Drive Backup
 
 🔗 Google Drive Link (Backup)
 🔮 Future Enhancements
 
-Support for distorted or noisy CAPTCHAs
+5. Support for distorted or noisy CAPTCHAs
 Add model retraining module from uploaded images
 Extend support to multi-line CAPTCHA images
 Integrate OCR techniques for printed CAPTCHA styles
 📚 References
 
-Flask Documentation
+6. Flask Documentation
 TensorFlow Guide
 Keras OCR
 OpenCV Python
 
 Google Drive Link:
 https://drive.google.com/file/d/1WKvmiT2Rdur11wkeI2SOj74BtAIsTXvt/view?usp=sharing
+
+
+**Clone the Repository**
+```bash
+git clone https://github.com/apurwaanandd/Captcha-Recognition-system.git
+cd Captcha-Recognition-system
